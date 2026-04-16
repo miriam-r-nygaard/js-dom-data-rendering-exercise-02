@@ -106,9 +106,10 @@ const mobilePhones = [
 
 const phonesContainer = document.querySelector("#phones-container");
 //Opgave 4 – Opret variablen phonesContainer
+
 function displayPhones(phoneList) {
   phonesContainer.innerHTML = "";
-  phones.forEach((item) => {
+  mobilePhones.forEach((item) => {
     phonesContainer.innerHTML += `
     <article>
       <h2>${item.brandnavn}</h2>
