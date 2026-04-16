@@ -48,3 +48,5 @@ const mobilePhones = [
   },
 ];
 //Opgave 3 – Opret datastrukturen mobilePhones med de første 5 telefoner
+
+const phonesContainer = 
