@@ -63,7 +63,10 @@ function displayPhones(phoneList) {
         <li><p>${item.price}</p></li>
         <li><p>${item.memory}</p></li>
       </ul>
-
+      <figure>
+        <img src="${item.img}" alt="${item.brandmodel}">
+       <figcaption>${item.brandmodel}</figcaption>
+     </figure>
     </article>
     `;
   });
@@ -72,3 +75,4 @@ function displayPhones(phoneList) {
 //Opgave 6 – Tøm containeren før telefonerne vises
 //Opgave 7 – Brug `forEach()` til at gennemløbe telefonerne
 //Opgave 8 – Brug innerHTML og template literals
+//Opgave 9 – Tilføj billede
