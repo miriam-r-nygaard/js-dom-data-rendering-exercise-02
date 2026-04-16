@@ -112,7 +112,7 @@ function displayPhones(phoneList) {
   mobilePhones.forEach((item) => {
     phonesContainer.innerHTML += `
     <article>
-      <h2>${item.brandnavn}</h2>
+      <h2>${item.brandname}</h2>
       <ul>
         <li><p>${item.brandmodel}</p></li>
         <li><p>${item.color}</p></li>
