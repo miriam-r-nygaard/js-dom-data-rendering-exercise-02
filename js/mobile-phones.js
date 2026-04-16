@@ -49,4 +49,26 @@ const mobilePhones = [
 ];
 //Opgave 3 – Opret datastrukturen mobilePhones med de første 5 telefoner
 
-const phonesContainer = 
+const phonesContainer = document.querySelector("#phones-container");
+//Opgave 4 – Opret variablen phonesContainer
+function displayPhones(phoneList) {
+  phonesContainer.innerHTML = "";
+  phones.forEach((item) => {
+    phonesContainer.innerHTML += `
+    <article>
+      <h2>${item.brandnavn}</h2>
+      <ul>
+        <li><p>${item.brandmodel}</p></li>
+        <li><p>${item.color}</p></li>
+        <li><p>${item.price}</p></li>
+        <li><p>${item.memory}</p></li>
+      </ul>
+
+    </article>
+    `;
+  });
+}
+//Opgave 5 – Opret funktionen
+//Opgave 6 – Tøm containeren før telefonerne vises
+//Opgave 7 – Brug `forEach()` til at gennemløbe telefonerne
+//Opgave 8 – Brug innerHTML og template literals
